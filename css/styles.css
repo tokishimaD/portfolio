@@ -1,0 +1,67 @@
+.navbar {
+   background: #1800f381;
+}
+
+.nav-link,
+.navbar-brand {
+   font-weight: 600;
+   color: #a3fcff;
+   cursor: pointer;
+}
+
+.nav-link {
+   margin-right: 1em !important;
+}
+.nav-link.active {
+   color: #fbff00;
+}
+.nav-link:hover {
+   color: #fbff00;
+}
+.navbar-collapse {
+   justify-content: flex-end;
+}
+
+
+.navbar-toggler {
+   background: #fff !important;
+}
+
+/*header style*/
+.header {
+   background-image: url('../img/busya.jpg');
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+}
+.overlay {
+   position: absolute;
+   min-height: 100%;
+   min-width: 100%;
+   left: 0;
+   top: 0;
+   background: rgba(244, 244, 244, 0.79);
+}
+.description {
+   position: absolute;
+   top: 30%;
+   margin: auto;
+   padding: 2em;
+}
+
+.description h1 {
+   color: #F97300;
+}
+
+.description p {
+   color: #666;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.description .btn {
+   border: 1px solid #F97300;
+   background: #F97300;
+   color: #fff;
+}
+
